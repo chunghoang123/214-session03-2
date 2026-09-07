@@ -1,0 +1,12 @@
+# Tên file: order-service.yml
+# Phù hợp với spring.application.name = "order-service"
+
+spring:
+  datasource:
+    url: jdbc:mysql://foodx-cluster.local:3306/orders_db
+    username: order_service_user
+    # Mật khẩu được mã hóa bằng {cipher}
+    password: "{cipher}BXKD9m2nR7pQ3vF6hT1jL5wY8zC4xA0bN6eS9kM"
+
+server:
+  port: 8086
