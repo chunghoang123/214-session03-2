@@ -44,3 +44,5 @@ password: "{cipher}AQIC2j8QtNDUj3Fk5rF8gK3mVx7p9wY2bN4zR6tH1jL"
 ## Mô tả cấu trúc kho cấu hình tập trung
 
 Git repository chứa toàn bộ cấu hình cho 3 service của FoodX. Mỗi service có một file YAML đặt tên đúng theo `spring.application.name`. Config Server sẽ phục vụ cấu hình từ repository này. Mật khẩu được mã hóa bằng cơ chế `{cipher}` của Spring Cloud Config, đảm bảo bảo mật khi lưu trữ tập trung.
+
+# 214-session03-2
